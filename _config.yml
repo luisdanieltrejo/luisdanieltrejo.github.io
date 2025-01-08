@@ -56,7 +56,7 @@ content:
       - layout: left
         title: Team Quality
         link: www.teamquality.com.ar
-         link_text: teamquality.com.ar
+         #link_text: teamquality.com.ar
         sub_title: Analista de Infraestructura Sr.
         caption: Enero 2023 - Presente
         quote: >
@@ -70,7 +70,7 @@ content:
       - layout: left
         title: Enerflex (antes Exterran)
         link: www.enerflex.com
-         link_text: enerflex.com
+         #link_text: enerflex.com
         sub_title: Analista de Infraestructura Sr.
         caption: Febrero 2008 - Enero 2023
         quote: >
@@ -84,7 +84,7 @@ content:
       - layout: left
         title: Otros
         link: https://ar.linkedin.com/company/software-del-plata
-         link_text: Software Del Plata
+         #link_text: Software Del Plata
         sub_title: Help Desk
         caption: November 2007 - Febrero 2008
         quote: >
