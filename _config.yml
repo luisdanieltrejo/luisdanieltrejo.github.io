@@ -8,20 +8,20 @@ version: 2
 # Personal info
 name: Luis Daniel Trejo
 title: Analista de Infraestructura
-email: luisdanieltrejoh@gmail.com
+email: luisdanieltrejo@gmail.com
 website: https://luisdanieltrejo.github.io/
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-#twitter_username: facespics
+twitter_username: luisdtrejosh
 github_username:  luisdanieltrejo
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-#instagram_username: jameswgrant
+instagram_username: luisdtrejosh
 linkedin_username: luisdanieltrejo
 # xing_username: jekyll
 # pinterest_username: jekyll
@@ -48,19 +48,33 @@ linkedin_username: luisdanieltrejo
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Analista Ssr. orientado a infraestructura IT con mas de 10 años de experiencia en el área. Mi fuerte son los <mark>Servidores</mark>.
-  Conocimientos avanzados en Virtualización, GNU/Linux y entornos Windows. Capacidad de liderazgo y orientado a resultados. Oracle Cloud Infraestructure (OCI) certified
-  
+#  Analista de Infraestructura IT Sr. con mas de 12 años de experiencia. <mark>Linux</mark> y <mark>Software Libre</mark>, <mark>Servidores</mark>, <mark>Virtualizacion</mark>, <mark>Scripting</mark> y <mark>Automatizaciones</mark>.
+  Analista de Infraestructura IT (Sysadmin) con más de 10 años de experiencia en infraestructura IT. Especialista en gestión de <mark>servidores</mark>, <mark>virtualización</mark>, </mark>software libre</mark>, y administración de entornos <mark>Windows</mark> y <mark>GNU/Linux</mark>. <mark>Scripting</mark> (bash/powershell) y <mark>automatizaciones</mark>.
 content:
-  - title: Experiencia # Title for the section
+  - title: Experiencia
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Exterran
-        link: www.exterran.com.ar
-        # link_text: boringcompany.com
-        sub_title: Analista de Infraestructura
-        caption: Febrero 2008 - Presente
+        title: Team Quality
+        link: www.teamquality.com.ar
+         link_text: teamquality.com.ar
+        sub_title: Analista de Infraestructura Sr.
+        caption: Enero 2023 - Presente
+        quote: >
+          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+
+
+  - title: 
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Enerflex (antes Exterran)
+        link: www.enerflex.com
+         link_text: enerflex.com
+        sub_title: Analista de Infraestructura Sr.
+        caption: Febrero 2008 - Enero 2023
         quote: >
           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
@@ -70,9 +84,9 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Empresa 2
-        link: empresa2.net
-        # link_text: boringcompany.com
+        title: Otros
+        link: https://ar.linkedin.com/company/software-del-plata
+         link_text: Software Del Plata
         sub_title: Senior Network System Administrator
         caption: November 2017 - Present
         quote: >
@@ -80,7 +94,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
 
-  - title: Certificaciones # Title for the section
+  - title: Capacitaciones # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
