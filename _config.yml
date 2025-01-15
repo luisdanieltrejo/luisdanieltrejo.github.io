@@ -48,7 +48,7 @@ linkedin_username: luisdanieltrejo
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Analista de Infraestructura IT (Sysadmin) con más de 10 años de experiencia en infraestructura IT. Especialista en gestión de <mark>servidores</mark>, <mark>virtualización</mark>, </mark>software libre</mark>, y administración de entornos <mark>Windows</mark> y <mark>GNU/Linux</mark>. <mark>Scripting</mark> (bash/powershell) y <mark>automatizaciones</mark>.
+  Analista de Infraestructura IT (Sysadmin) con más de 10 años de experiencia en infraestructura IT. Especialista en gestión de <mark>servidores</mark>, <mark>virtualización</mark>, <mark>software libre</mark>, y administración de entornos <mark>Windows</mark> y <mark>GNU/Linux</mark>. <mark>Scripting</mark> (bash/powershell) y <mark>automatizaciones</mark>.
 content:
   - title: Experiencia
     layout: list # Type of content section (list/text)
