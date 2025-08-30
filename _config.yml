@@ -1,4 +1,4 @@
-#Site
+# Site
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
@@ -7,120 +7,141 @@ version: 2
 
 # Personal info
 name: Luis Daniel Trejo
-title: Analista de Infraestructura
+title: Sysadmin Sr. | DevOps & Cloud Engineer
 email: luisdanieltrejo@gmail.com
 website: https://luisdanieltrejo.github.io/
 
-# Dark Mode (true/false/never)
+# Dark Mode
 darkmode: false
 
 # Social links
 twitter_username: luisdtrejosh
-github_username:  luisdanieltrejo
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
+github_username: luisdanieltrejo
 instagram_username: luisdtrejosh
 linkedin_username: luisdanieltrejo
-# xing_username: jekyll
-# pinterest_username: jekyll
-#youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-#additional_links:
-#- title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Analista de Infraestructura IT (Sysadmin) con más de 10 años de experiencia en infraestructura IT. Especialista en gestión de <mark>servidores</mark>, <mark>virtualización</mark>, <mark>software libre</mark>, y administración de entornos <mark>Windows</mark> y <mark>GNU/Linux</mark>. <mark>Scripting</mark> (bash/powershell) y <mark>automatizaciones</mark>.
+  Administrador de Sistemas Senior con más de 15 años de experiencia en infraestructura IT, entornos Windows y Linux, virtualización y cloud. 
+  Experto en administración de servidores, redes y seguridad, con foco en automatización (PowerShell, Bash, Ansible) y continuidad operativa.
+  Experiencia liderando proyectos regionales en Latinoamérica y Estados Unidos en inglés avanzado, gestionando datacenters críticos y optimizando plataformas híbridas.
+  Actualmente orientado a evolución profesional hacia DevOps y Cloud Engineering.
+
 content:
   - title: Experiencia
-    layout: list # Type of content section (list/text)
+    layout: list
     content:
       - layout: left
         title: Team Quality
-        link: www.teamquality.com.ar
-         #link_text: teamquality.com.ar
+        link: https://www.teamquality.com.ar
         sub_title: Analista de Infraestructura Sr.
-        caption: Enero 2023 - Presente
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+        caption: Ene 2024 - Presente
+        description: |
+          - Administración de servidores Windows/Linux y firewalls en entornos críticos.
+          - Implementación de políticas de backup y automatización con PowerShell y Ansible, reduciendo un 40% las tareas manuales.
+          - Gestión de proyectos de ciberseguridad, mitigando vulnerabilidades críticas.
+          - Optimización de disponibilidad y seguridad en infraestructura.
 
-  - title: 
-    layout: list # Type of content section (list/text)
-    content:
       - layout: left
         title: Enerflex (antes Exterran)
-        link: www.enerflex.com
-         #link_text: enerflex.com
-        sub_title: Analista de Infraestructura Sr.
-        caption: Febrero 2008 - Enero 2023
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+        link: https://www.enerflex.com
+        sub_title: Analista de Sistemas Sr.
+        caption: May 2013 - Dic 2023
+        description: |
+          - Responsable del centro de datos principal de Latinoamérica (top 3 global).
+          - Administración de infraestructura IT: servidores, redes y virtualización (VMware, Hyper-V).
+          - Implementación de políticas de disaster recovery con Veeam (RPO < 4h, RTO < 2h).
+          - Reducción de incidentes críticos en un 30% mediante automatización de monitoreo.
+          - Lideré proyectos de infraestructura para Argentina, México, Colombia y Estados Unidos.
 
-  - title: #Experiencia 2 # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
       - layout: left
-        title: Otros
+        title: Software del Plata
         link: https://ar.linkedin.com/company/software-del-plata
-         #link_text: Software Del Plata
-        sub_title: Help Desk
-        caption: November 2007 - Febrero 2008
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+        sub_title: Soporte IT / Administrador de Redes
+        caption: May 2007 - Ene 2008 / Feb 2008 - Dic 2011
+        description: |
+          - Soporte IT on-site para OSDE, Aerolíneas Argentinas y DHL.
+          - Administración de redes y enlaces de datos a nivel nacional.
+          - Monitoreo y mejora de sitios remotos, garantizando disponibilidad y continuidad.
 
-  - title: Capacitaciones # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Certificaciones y Educación
+    layout: list
     content:
       - layout: left
-        title: Oracle Cloud Infrastructure (OCI)
+        title: Oracle Cloud Infrastructure Foundations 2021 Associate
         caption: 2021
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        description: |
+          Certificación oficial de Oracle Cloud, validando conocimientos en fundamentos de cloud computing, IAM, networking y servicios básicos.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: left
+        title: Diplomatura en Ciberseguridad
+        caption: [Año]
+        description: |
+          Formación orientada a seguridad de la información, identificación de riesgos, mitigación de vulnerabilidades y cumplimiento de estándares.
 
-  - title: Un poco acerca de mí
+  - title: Habilidades Técnicas
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+    content: |
+      **Sistemas Operativos:** Windows Server, Rocky Linux, Ubuntu, RHEL  
+      **Virtualización e Infraestructura:** VMware vSphere/ESXi, Hyper-V, Veeam Backup  
+      **Cloud Computing:** Oracle Cloud (certificado), AWS (EC2, S3, IAM), Azure (AD, Networking)  
+      **Automatización y Scripting:** PowerShell, Bash, Ansible, Terraform  
+      **Redes y Seguridad:** Firewalls, VPN, AD, PKI, Hardening, Compliance  
+      **Monitoreo y Gestión:** Zabbix, Nagios, Grafana, Prometheus  
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  - title: Idiomas
+    layout: text
+    content: |
+      - Español: Nativo  
+      - Inglés: Avanzado (C1) – comunicación fluida en entornos internacionales, 10+ años trabajando con equipos de Estados Unidos  
+
+  - title: Proyectos Destacados
+    layout: list
+    content:
+      - layout: left
+        title: Migración a infraestructura híbrida cloud
+        caption: Enerflex
+        description: |
+          Migración de más de 100 VMs en VMware hacia infraestructura híbrida, logrando una reducción del 25% en costos.
+
+      - layout: left
+        title: Automatización de parches
+        caption: Team Quality
+        description: |
+          Implementación de automatización de parches en Windows y Linux, reduciendo en 70% los tiempos de despliegue.
+
+      - layout: left
+        title: Hardening de servidores
+        caption: Enerflex
+        description: |
+          Endurecimiento de servidores productivos siguiendo lineamientos CIS Benchmarks.
+
+  - title: ¿En que estoy trabajando?
+    layout: list
+    content:
+      - layout: left
+        title: XDR Wazuh
+#        caption: Enerflex
+        description: |
+          Migración de más de 100 VMs en VMware hacia infraestructura híbrida, logrando una reducción del 25% en costos.
+
+      - layout: left
+        title: Hardening Windows & Linux
+#        caption: Team Quality
+        description: |
+          Implementación de automatización de parches en Windows y Linux, reduciendo en 70% los tiempos de despliegue.
+
+      - layout: left
+        title: Migracion PRTG a Zabbix
+#        caption: Enerflex
+        description: |
+          Endurecimiento de servidores productivos siguiendo lineamientos CIS Benchmarks.
+
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: Referencias disponibles a solicitud
 
 # Build settings
 remote_theme: sproogen/resume-theme
